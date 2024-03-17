@@ -1,0 +1,210 @@
+/*Fontes*/
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&display=swap');
+
+.charm-regular {
+    font-family: "Charm", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .charm-bold {
+    font-family: "Charm", cursive;
+    font-weight: 700;
+    font-style: normal;
+  }
+/*Fontes*/
+
+/*Paletas*/
+:root {
+    --cor01: #0A2E2B;
+    --cor02: #1D857C;
+    --cor03: #586B69;
+    --cor04: #C3FAF5;
+}
+/*Paletas*/
+
+/*Configurações Padrões*/
+*{ 
+    margin: 0px;
+    padding: 0px;
+}
+/*Configurações Padrões*/
+
+body{
+    background-color: var(--cor01);
+    width: 100%;
+
+    
+}
+
+header{
+    margin-top: 28px;
+    font-family: "Charm", cursive;
+    background-image: url(imagens/principal.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    
+}
+
+header  > h1{
+    border: 1px solid black;
+    color: var(--cor04);
+    background-color: #1D857C;
+    text-align: center;
+    font-size: 1.6em;
+
+}
+
+
+#nossa-historia > h2 {
+    padding: 10px;
+    color: rgba(0, 0, 0, 0.99);
+}
+
+#nossa-historia {
+    background-color: white;
+    display: none; 
+}
+
+#nossa-historia > h3 {
+    padding: 5px;
+    
+}
+
+#nossa-historia > p {
+    font-size: 1.2em;
+    margin: 5px;
+    text-align: justify;
+}
+
+#secao-2 {
+    padding: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    transition: height 0.5s ease; 
+    overflow: hidden; 
+   
+}
+
+#secao-2.show {
+    height: auto;
+}
+
+#cozinha{
+    background-color: rgba(128, 128, 128, 0.475);
+    width: 100%;
+
+}
+
+#cozinha > p{
+    display: inline-block;
+    margin-right: 8px;
+    margin-left: 24px;
+    margin-bottom: 20px;
+
+}
+
+#cozinha > img {
+    border-radius: 100%;
+    height: 50px;
+    margin: 10px 25px 0px 15px ;
+   
+}
+
+#sala{
+    background-color: rgba(128, 128, 128, 0.853);
+    width: 100%;
+
+}
+
+#sala > p{
+    display: inline-block;
+
+    margin-right: 10px;
+    margin-left: 8px;
+    margin-bottom: 20px;
+
+
+}
+
+#sala > img {
+    border-radius: 100%;
+    height: 50px;
+    margin: 10px 25px 0px 20px ;
+   
+}
+
+#quarto{
+    background-color: rgb(101, 101, 101);
+
+    width: 100%;
+
+}
+
+#quarto > p{
+    display: inline-block;
+
+    margin-right: 10px;
+    margin-left: 24px;
+    margin-bottom: 20px;
+
+
+}
+
+#quarto > img {
+    border-radius: 100%;
+    height: 50px;
+    margin: 10px 25px 0px 20px ;
+   
+}
+
+#banheiro{
+    background-color: var(--cor03);
+    width: 100%;
+
+}
+
+#banheiro > p{
+    display: inline-block;
+
+    margin-right: 10px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+
+
+}
+
+#banheiro > img {
+    border-radius: 100%;
+    height: 50px;
+    margin: 10px 25px 0px 20px ;
+   
+}
+
+#Paletas{
+    padding: 10px;
+    background-color: #1D857C;
+
+}
+#Paletas > label{
+    font-size: 20px;
+}
+
+#seta-paleta {
+    transition: transform 0.3s ease;
+
+}
+
+
+
+.bi-arrow-down-square-fill:before {
+    content: '\e0f8';
+}
+
+.bi-arrow-up-square-fill:before {
+    content: '\e0f7';
+}
